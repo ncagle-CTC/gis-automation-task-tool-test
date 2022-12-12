@@ -7,8 +7,7 @@
     "actions": [],
     "archivedActions": [],
     "body": "export default {\n\tlogout : () => {\n\t\tObject.keys(appsmith.store)\n\t\t.map(key => storeValue(key, undefined));\n\t\tnavigateTo('Login Page')\n\t}\n}",
-    "variables": [],
-    "userPermissions": []
+    "variables": []
   },
   "id": "Login Page_logout",
   "deleted": false,

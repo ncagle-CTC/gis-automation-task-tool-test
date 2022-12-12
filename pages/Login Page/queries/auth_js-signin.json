@@ -20,7 +20,6 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n  return signin.run().then(data => {\n    delete data.user;\n    Object.keys(data).forEach(i => {\n      storeValue(i, data[i]);\n    });\n  }).then(() => navigateTo('Customer Update Form'));\n}",
-      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },

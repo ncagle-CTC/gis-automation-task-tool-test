@@ -20,7 +20,6 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "async () => {\n  if (!appsmith.URL.fullPath.includes('#access_token=')) return;\n  appsmith.URL.fullPath.split('#')[1].split('&').forEach(i => {\n    const [key, value] = i.split('=');\n    storeValue(key, value);\n  });\n  navigateTo('Customer Update Form');\n}",
-      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },
