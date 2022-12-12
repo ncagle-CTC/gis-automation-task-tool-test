@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Login Page",
+      "isDefault": true
+    },
+    {
       "id": "Tasks",
       "isDefault": false
     },
@@ -9,11 +13,11 @@
       "isDefault": false
     },
     {
-      "id": "Summary",
-      "isDefault": true
+      "id": "Projects",
+      "isDefault": false
     },
     {
-      "id": "Projects",
+      "id": "Summary",
       "isDefault": false
     }
   ],
