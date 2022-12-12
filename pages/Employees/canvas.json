@@ -1883,9 +1883,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "data_table.pageSize",
-                "data_table.searchText || \"\"",
-                "(data_table.pageNo - 1) * data_table.pageSize"
+                "data_table.searchText || \"\""
               ],
               "timeoutInMillisecond": 10000
             }
