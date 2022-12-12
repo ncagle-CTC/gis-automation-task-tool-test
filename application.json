@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "Tasks",
+      "isDefault": false
+    },
+    {
+      "id": "Employees",
+      "isDefault": false
+    },
+    {
+      "id": "Summary",
+      "isDefault": true
+    },
+    {
+      "id": "Projects",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "635acf46f5a3b00fdf7faf18",
+  "color": "#C7F3E3",
+  "icon": "globe",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

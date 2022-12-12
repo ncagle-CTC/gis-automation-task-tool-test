@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "Projects",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\nisCurrentPage: (page) => {\n\tif(appsmith.store.page === page) return true;\n\treturn false;\n},\n\t\nsetCurrentPage: (page) => {\n\tstoreValue('page' , page);\n\tnavigateTo(page)\n}\t\n}",
+    "variables": []
+  },
+  "id": "Projects_utils",
+  "deleted": false,
+  "gitSyncId": "638df072f5a3b00fdf7fb819_638df073f5a3b00fdf7fb86c"
+}
